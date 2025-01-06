@@ -1,0 +1,5 @@
+# Ignoriere von LaTeX generierte, temporäre Dateien
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
