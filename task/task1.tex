@@ -1,6 +1,6 @@
-\documentclass[oneside, 11pt, a4paper, parskip=full]{scrartcl}
+\documentclass[oneside, 10pt, a4paper, parskip=full]{scrartcl}
 
-% TODO: kleinere title-Font
+\usepackage[margin=2.2cm]{geometry}
 
 \usepackage[utf8]{inputenc}
 
@@ -29,7 +29,6 @@ Der Fokus liegt auf der Implementierung einer Klasse, dabei nutzen wir insbesond
 
 \begin{figure}
     \centering
-    % TODO: vielleicht nicht wieder eine PDF-Datei?
     \includegraphics[height=4cm]{./../diagram/classes_files.pdf}
     \caption{Darstellung der Klassenbeziehungen.}
 \end{figure}
@@ -55,7 +54,6 @@ Die Datei "main.py" nutzt die Klassen "DataSet" und "DataSetItem" aus den jeweil
 
 \subsection{Methoden}
 
-% TODO: ist es möglich alle Items auf eine Seite zu bekommen?
 Bei der Klasse "DataSet" sind insbesondere folgenden Methoden zu implementieren, die genaue Spezifikation finden Sie in der "dataset.py":
 \begin{compactitem}
 \item \_\_setitem\_\_(self, name, id\_content)\\
